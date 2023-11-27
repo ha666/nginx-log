@@ -44,7 +44,7 @@ http://127.0.0.1:9200/
   },
   "source": {
     "type": "file",
-    "file_path": "./ha666.com.access.log"
+    "file_path": "/var/log/nginx/ha666.com.access.log"
   },
   "target": {
     "type": "elasticsearch",
